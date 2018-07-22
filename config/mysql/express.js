@@ -16,9 +16,9 @@ module.exports = function () {
         store: new MySQLStore({
             host: 'localhost',
             port: 3306,
-            user: 'root',
-            password: '7101',
-            database: 'o2'
+            user: '',
+            password: '',
+            database: ''
         })
     }));
 
